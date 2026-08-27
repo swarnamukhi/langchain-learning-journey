@@ -1,5 +1,7 @@
 # PromptTemplate with Different LLM Providers
 
+A PromptTemplate is a reusable prompt structure containing placeholders whose values can be supplied dynamically.
+
 One of the biggest advantages of **LangChain's `PromptTemplate`** is that it is **provider-independent**.
 
 This means the same prompt template can be used with different LLM providers such as Google Gemini, OpenAI GPT, Anthropic Claude, Hugging Face models, Vertex AI, etc.
